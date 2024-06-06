@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Dit is de pagina voor als je contact wil opnemen, het is een form die je moet invullen-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,10 +7,10 @@
     <title>Document</title>
 
     <style>
-        body {font-family: Arial, Helvetica, sans-serif;}
+        body {font-family: Arial, Helvetica, sans-serif;} /*welke font het is*/
         * {box-sizing: border-box;}
         
-        input[type=text], select, textarea {
+        input[type=text], select, textarea { /*Code voor vorm, dat je op dingen kan drukken enso*/
           width: 100%;
           padding: 12px;
           border: 1px solid #ccc;
@@ -20,7 +21,7 @@
           resize: vertical;
         }
         
-        input[type=submit] {
+        input[type=submit] { /*Submit knop*/
           background-color: #04AA6D;
           color: white;
           padding: 12px 20px;
@@ -29,7 +30,7 @@
           cursor: pointer;
         }
         
-        input[type=submit]:hover {
+        input[type=submit]:hover { /*Submit knop*/
           background-color: #45a049;
         }
         
@@ -41,6 +42,7 @@
         </style>
 
     <style type="text/css">
+        /* Nav system*/
         *{
             text-decoration: none;
         }
@@ -73,7 +75,7 @@
 
 </head>
 
-
+<!--Nav system benaming-->
 <body style="background-color: rgb(168, 211, 198);">
     <br>
     <nav class="navbar">
@@ -92,8 +94,9 @@
 
 
 
-
+ 
 <body>
+   <!--Deze 2 onderstaande dingen in het midden als titel gezet-->
     <center><h1>Neem contact op met ons</h1></center>
     <center><p>Heb je een vraag over je bestelling of wil je meer te weten komen over ons? Vul dan gerust het onderstaande formulier in.</p> </center>
     
@@ -102,28 +105,30 @@
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="fname">Naam</label>
+    <label for="fname">Naam</label> <!--geeft aan dat je je naam moet invullen-->
     <input type="text" id="fname" name="firstname" placeholder="Typ je naam..">
 
-    <label for="lname">Telefoonnummer</label>
+    <label for="lname">Telefoonnummer</label> <!--geeft aan dat je je telefoonnummer moet invullen-->
     <input type="text" id="lname" name="lastname" placeholder="Typ je telefoonnummer..">
 
-   <label for="country">Bestelling nummer</label>
+   <label for="country">Bestelling nummer</label> <!--geeft aan dat je je bestelling nummer moet invullen-->
     <input type="text" id="country" name="lastname" placeholder="Typ je bestelling nummer..">
 
      
 
-    <label for="subject">Bericht</label>
+    <label for="subject">Bericht</label> <!--geeft aan dat je je bericht moet invullen-->
     <textarea id="subject" name="subject" placeholder="Typ je bericht.." style="height:200px"></textarea>
 
        
 
   </form>
+  <!--brengt je naar andere pagina die bevestigt dat je reviwe is bewerkt, bij klikken op submit-->
  <a href="apres-contact.html">
   <input type="submit" value="Submit">
 </a>
 </div>
 
+ <!--Elk van deze codes onder, zorgt ervoor dat als je op de foto drukt, je naar de website gaat van het weergegeven logo-->
 <center><h2>Blijf in contact, volg ons!</h2></center>
 
 <a href="https://youtube.com">
